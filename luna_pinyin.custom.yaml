@@ -36,6 +36,7 @@ patch:
       reset: 0
       states: [ "漢字", "汉字" ]
     - name: ascii_punct
+      reset: 1
       states: ["。，", "．，"]
 
     
