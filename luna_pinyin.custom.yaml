@@ -127,11 +127,11 @@ patch:
     #- abbrev/^([zcs]h).+$/$1/          # 簡拼（zh, ch, sh）
 
     # 以下是一組容錯拼寫，《漢語拼音》方案以前者爲正
-    - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
-    - derive/^([jqxy])u/$1v/           # ju = jv,
-    - derive/un$/uen/                  # gun = guen,
-    - derive/ui$/uei/                  # gui = guei,
-    - derive/iu$/iou/                  # jiu = jiou,
+    # - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
+    # - derive/^([jqxy])u/$1v/           # ju = jv,
+    # - derive/un$/uen/                  # gun = guen,
+    # - derive/ui$/uei/                  # gui = guei,
+    # - derive/iu$/iou/                  # jiu = jiou,
 
     # 自動糾正一些常見的按鍵錯誤
     - derive/([aeiou])ng$/$1gn/        # dagn => dang 
