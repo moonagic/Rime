@@ -13,10 +13,10 @@ patch:
   #   border_width: 0 # 窗口边界宽度，大于圆角半径才生效
 
   style:
-    color_scheme: psionics
+    color_scheme: purity_of_form # purity_of_form # purity_of_essence # psionics
     horizontal: true
     inline_preedit: true
-    candidate_format: "%c\u2005%@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+    candidate_format: "\u2005%c\u2005%@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
     font_point: 13                          # 候选文字大小
     label_font_point: 12                    # 候选编号大小  
     corner_radius: 6                        # 候选条圆角
