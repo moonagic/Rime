@@ -5,7 +5,7 @@ patch:
   #   color_scheme: purity_of_essence
   #   horizontal: true
   #   inline_preedit: true
-  #   candidate_format: "%c\u2005%@\u2005" # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+  #   candidate_format: "%c\u2005%@\u2005" # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
   #   font_point: 16 # 候选文字大小
   #   label_font_point: 14 # 候选编号大小
   #   corner_radius: 5 # 候选条圆角
@@ -13,18 +13,21 @@ patch:
   #   border_width: 0 # 窗口边界宽度，大于圆角半径才生效
 
   style:
-    color_scheme: purity_of_essence # purity_of_form # purity_of_essence # psionics
+    color_scheme: purity_of_form # purity_of_form # purity_of_essence # psionics
     horizontal: true
     inline_preedit: true
-    candidate_format: "\u2005%c.\u2005%@ "  # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+    candidate_format: "\u2005%c.%@ "  # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
     font_point: 14                          # 候选文字大小
-    label_font_point: 9                     # 候选编号大小  
-    corner_radius: 6                        # 候选条圆角
+    label_font_point: 13                    # 候选编号大小
+    corner_radius: 5                        # 候选条圆角
     border_height: 0                        # 窗口边界高度，大于圆角半径才生效
     border_width:  0                        # 窗口边界宽度，大于圆角半径才生效
-    font_face: "Fira Code"
-    label_font_face: "Fira Code Retina"
+    font_face: "PingFangTC-Regular,HanaMinA,HanaMinB"
+    label_font_face: "Monaco"
+    candidate_list_layout: linear
+    hilited_corner_radius: 2.0
+    color_space: display_p3
 
-  "app_options/com.runningwithcrayons.Alfred-3/ascii_mode": true
+  "app_options/com.runningwithcrayons.Alfred/ascii_mode": true
   "app_options/com.apple.dt.Xcode/ascii_mode": false
 
