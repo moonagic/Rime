@@ -33,7 +33,6 @@ Android	android
 Annotable	annotable
 AnyConnect	anyconnect
 AnyDrop	anydrop
-App Clips	app clips
 AOL	aol
 APFS	apfs
 APFS	ge shi hua
@@ -55,7 +54,6 @@ Baskerville	baskerville
 BBC	bbc
 BFR	bfr
 BigCaslon	bigcaslon
-Big Sur	big sur
 Bitcron	bitcron
 BlackBerry	black berry
 BMP	bmp
@@ -76,7 +74,6 @@ Cortana	cortana
 CPU	cpu
 Curio	curio
 Cydia	cydia
-CentOS	centos
 Devanagari	devanagari
 DFU	dfu
 DHCP	dhcp
@@ -91,9 +88,8 @@ Due	due
 DVD	dvd
 DVI	dvi
 EarPods	earpods
-Elpass	elpass
-EdgePoint	edge point
-EdgeSwitch	edge switch
+EdgePoint	edge	point
+EdgeSwitch	edge	switch
 eDRAM	edram
 EDXOR	edxor
 Emacs	emacs
@@ -126,8 +122,7 @@ GPU	gpu
 Graffle	graffle
 GRE	gre
 GSM	gsm
-GaN	g an
-GUI	g u i
+GUI	gui
 Gujarati	gujarati
 Gurmukhi	gurmukhi
 Hangouts	hangouts
@@ -162,7 +157,6 @@ IP	ip
 iPack	ipack
 IPN	ipn
 IPS	ips
-iPerf	iperf
 iSight	isight
 iTerm	iterm
 jEdit	jedit
@@ -204,7 +198,6 @@ Moke	moke
 Moom	moom
 Mountie	mountie
 Moves	moves
-MariaDB	maria
 Movist	movist
 Mozilla	mozilla
 MPlayer	mplayer
@@ -305,7 +298,7 @@ Trello	trello
 TRUE	true
 TTL	ttl
 Tumblr	tumblr
-TUN	t u n
+TUN	tun
 Twitter	twitter
 Typora	typora
 UAP	uap
@@ -327,6 +320,7 @@ VLC	vlc
 VMware	vmware
 VoLTE	volte
 VPN	vpn
+VR	vr
 Waltr	waltr
 Waseem	waseem
 WCDMA	wcdma
@@ -366,7 +360,6 @@ Airmail	air mail
 airMAX	air max
 AirPlay	air play
 AirPods	air pods
-AirPods Pro	air pods
 AirPort	air port
 AirPort Express	air port
 AirPort Extreme	air port
@@ -440,10 +433,10 @@ CallMaster	call master
 CarPlay	car play
 CCTV	cctv
 Chalkboard	chalk board
-Chrome	chrome
 Chalkduster	chalk duster
 CheatSheet	cheat sheet
 ChemBioDraw	chem bio draw
+CIA	cia
 Cisco IPSec	cisco ipsec
 CloudApp	cloud app
 CloudMagic	cloud magic
@@ -465,6 +458,7 @@ Cornerstone	corner stone
 Courier New	courier new
 Crimson Editor	crimson editor
 CSS	css
+CSS3	css san
 D-Link	dlink
 DailyCost	daily cost
 DaisyDisk	daisy disk
@@ -573,8 +567,7 @@ HTC Vive	htc
 HTML5	html wu
 Hyper Potion	hyper potion
 iA Writer	ia writer
-iBooks Author	ibooks
-iBooks	ibooks
+iBooks Author	ibooks author
 iCloud	icloud
 iCloud Drive	icloud drive
 Icons8 App	icons ba
@@ -594,7 +587,6 @@ Intellij IDEA	intellij idea
 Internet Explorer	internet explorer
 intoLive	into live
 iOS	ios
-Ion-X	ionx
 iMac	imac
 iMac Pro	imac
 IP 地址	ip di zhi
@@ -604,8 +596,8 @@ iPad	ipad
 iPad Air	ipad
 iPad mini	ipad
 iPad Pro	ipad
-iPadOS	ipad
 iPhone	iphone
+iPhone X	iphone ten
 iPod	ipod
 iPod classic	ipod
 iPod mini	ipod
@@ -641,7 +633,7 @@ Kindle Paperwhite	kindle
 Kindle Unlimited	kindle
 Kindle Voyage	kindle
 Klib	klib
-L2TP	lrtp
+L2TP	lertp
 LaTeXian	la te xian
 Launch Center Pro	lcp
 Launchpad	launch pad
@@ -668,7 +660,6 @@ MacBook Pro	macbook
 macOS	macos
 macOS Mojave	macos
 macOS High Sierra	macos
-macOS Catalina	macos
 MacTips	mac tips
 Mactracker	mac tracker
 Mad Catz	mad catz
@@ -730,23 +721,21 @@ Oculus VR	oculus
 OfficeSuite	office suite
 Olympics	olymipcs
 OmmWriter	omm writer
-OmniFocus	omnif
-OmniGraffle	omnig
-OmniOutliner	omnio
+OmniFocus	omni focus
+OmniGraffle	omni graffle
+OmniOutliner	omni outliner
 OmniPlan	omni plan
 OneDrive	one drive
 OneNote	one note
+OOP	oop
 OpenVPN	open vpn
 Oracle Database	oracle database
-LTPO OLED	oled
-OLED	oled
 OS X	osx
 OS X Server	osx
 OS X Server	osx server
 Outlook Express	outlook express
 PaintCode	paint code
 Parallels Desktop	parallels desktop
-Parallels Desktop	pd
 PC-cillin	pc cillin
 Perl	perl
 Photo Booth	photo booth
@@ -766,6 +755,7 @@ Pokémon GO	pokemon
 Pokémon GO	pokemon go
 Pokétop	poketop
 PopClip	pop clip
+POS 機	pos ji
 POWER UP	power up
 PowerBeam	power beam
 PowerPack	power pack
@@ -779,6 +769,8 @@ PTSerif	pt serif
 Public Beta	public beta
 PyCharm	pycharm
 PDF Expert	pdf expert
+QCon	qcon
+QNAP NAS	qnap nas
 QuickTime Player	quick time player
 RAM	ram
 Razz Berry	razz berry
@@ -799,7 +791,6 @@ Ruby on Rails	ror
 RubyMine	ruby mine
 Runtastic Pro	run tastic pro
 Sabrent USB	sabrent usb
-Safari	safari
 Safari View Controller	safari view controller
 SaneDesk	sane desk
 SAP	sap
@@ -901,7 +892,7 @@ True Tone	true tone
 Tupac	tupac
 Turbo Boost	turbo boost
 Tuxera Disk Manager	tuxera
-tvOS	tvos
+tvOS	tv os
 Tweetbot	tweet bot
 Twist Plus	twist plus
 Ubuntu	ubuntu
@@ -934,7 +925,8 @@ Wi-Fi	wi fi
 WiFi	wifi
 WiFi Explorer	wifi explorer
 WiFi Scanner	wifi scanner
-Wikipedia	wiki
+Wikipedia	wiki pedia
+Wikipedia	wikipedia
 Window Tidy	window tidy
 Windows Live Mail	windows live
 Windows Live Mail	windows live mail
@@ -955,6 +947,7 @@ World Wide Web	www
 WPA2	wpa
 WPS Office	wps office
 Writer Pro	writer pro
+WWW	www
 WWYD	wwyd
 X-Ray	xray
 Xbox One	xbox
@@ -971,6 +964,7 @@ Zhihu	zhi hu
 β 射線	bei ta she xian
 γ 刀	ga ma dao
 γ 射線	ga ma she xian
+	apple
  MUSIC	apple music
  PAY	apple pay
  tv 4K	apple tv

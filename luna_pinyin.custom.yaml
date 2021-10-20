@@ -33,9 +33,10 @@ patch:
     - name: full_shape
       states: ["半角", "全角"]
     - name: simplification
-      reset: 0
+      reset: 1
       states: [ "漢字", "汉字" ]
-
+    - name: ascii_punct
+      states: ["。，", "．，"]
 
     
  #  加載 easy_en 依賴

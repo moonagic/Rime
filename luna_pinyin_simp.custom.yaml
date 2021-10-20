@@ -35,11 +35,8 @@ patch:
         - GBK
         - GB2312
     - name: show_emoji
-      reset: 0
+      reset: 1
       states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
-
-  simplifier:
-    option_name: zh_simp
 
 
   engine/filters:
@@ -54,14 +51,13 @@ patch:
     option_name: show_emoji
     tags: abc
 
-  # 改寫拼寫運算，使得含西文的詞彙（位於 luna_pinyin.cn_en.dict.yaml 中）不影響簡拼功能（注意，此功能只適用於朙月拼音系列方案，不適用於各類雙拼方案）
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
 
-  # 加載 easy_en 依賴
+# 加載 easy_en 依賴
   "schema/dependencies/@1": easy_en
-  # 載入翻譯英文的碼表翻譯器，取名爲 english
+# 載入翻譯英文的碼表翻譯器，取名爲 english
   "engine/translators/@4": table_translator@english
-  # english 翻譯器的設定項
+# english 翻譯器的設定項
   english:
     dictionary: easy_en
     spelling_hints: 9
@@ -69,10 +65,10 @@ patch:
     enable_sentence: false
     initial_quality: -2           # 调整英文候选词的位置，如 -3 会更靠后
 
-  # 載入朙月拼音擴充詞庫
+#  載入朙月拼音擴充詞庫
   "translator/dictionary": luna_pinyin.extended
 
-  # 符号快速输入和部分符号的快速上屏
+#  符号快速输入和部分符号的快速上屏
   punctuator:
     import_preset: symbols
     symbols:
