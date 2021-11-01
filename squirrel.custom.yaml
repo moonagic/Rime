@@ -17,17 +17,18 @@ patch:
     horizontal: true
     inline_preedit: true
     candidate_format: "\u2005%c.%@ "  # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-    font_point: 13                          # 候选文字大小
-    label_font_point: 12                    # 候选编号大小
-    corner_radius: 5                        # 候选条圆角
+    font_point: 12                          # 候选文字大小
+    label_font_point: 11                    # 候选编号大小
+    corner_radius: 4                        # 候选条圆角
     border_height: 0                        # 窗口边界高度，大于圆角半径才生效
     border_width:  0                        # 窗口边界宽度，大于圆角半径才生效
-    font_face: "Monaco,LXGW-WenKai,PingFangSC-Regular,HanaMinA,HanaMinB"
-    label_font_face: "Monaco"
+    font_face: "Noto Sans Mono,LXGW-WenKai,PingFangSC-Regular,HanaMinA,HanaMinB"
+    label_font_face: "Noto Sans Mono"
     candidate_list_layout: linear
-    hilited_corner_radius: 4.0
+    hilited_corner_radius: 4
     color_space: display_p3
 
   "app_options/com.runningwithcrayons.Alfred/ascii_mode": true
   "app_options/com.apple.dt.Xcode/ascii_mode": false
+  "app_options/com.microsoft.VSCode/ascii_mode": false
 
